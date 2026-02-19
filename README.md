@@ -1,21 +1,15 @@
 # SMC Health Portal
 
-## 📌 Project Overview
-
-SMC Health Portal is a web-based healthcare management system designed to simplify hospital and patient interactions. The system allows users to book appointments, manage medical records, and access healthcare services through an easy-to-use interface.
-
----
-
 ## 🚀 Features
 
 - User Registration and Login
-- Patient Dashboard
 - Appointment Booking System
+- Patient Dashboard
 - Doctor Management
 - Health Records Management
 - Admin Panel
-- Responsive Design
 - Secure Authentication
+- Responsive User Interface
 
 ---
 
@@ -32,3 +26,84 @@ SMC Health Portal is a web-based healthcare management system designed to simpli
 
 ## 📂 Project Structure
 
+smc-health-portal/
+│
+├── public/
+│ └── assets/
+│
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── hooks/
+│ ├── lib/
+│ ├── App.tsx
+│ ├── main.tsx
+│ └── index.css
+│
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+git clone <repository-url>
+
+
+### 2. Navigate to the project directory
+cd smc-health-portal
+
+
+### 3. Install dependencies
+npm install
+
+
+### 4. Run the development server
+npm run dev
+
+
+Application runs at:
+http://localhost:5173
+
+
+---
+
+## 📦 Build for Production
+
+npm run build
+
+
+---
+
+## 👥 User Roles
+
+### Patient
+- Register and login
+- Book appointments
+- View medical records
+
+### Doctor
+- Manage appointments
+- Access patient details
+
+### Admin
+- Manage users and doctors
+- Monitor system activities
+
+---
+
+## 📱 Compatibility
+
+- Desktop
+- Tablet
+- Mobile Devices
+
+---
+
+## 📄 License
+
+Developed for educational and project purposes.
